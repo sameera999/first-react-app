@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ChildComponent from './ChildComponent'
+import FormCompo from './FormCompo'
 
 
 class ParentComponent extends Component {
@@ -20,7 +21,8 @@ class ParentComponent extends Component {
   render() {
     return (
       <div>        
-        <ChildComponent showMsgParent={this.showMsgParent}/>
+        <FormCompo/>
+        {/* <ChildComponent showMsgParent={this.showMsgParent}/> */}
       </div>
       
     )
