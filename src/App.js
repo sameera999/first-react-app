@@ -8,12 +8,16 @@ import FunctionalClick from './components/FunctionalClick';
 import ClassClick from './components/ClassClick';
 import EventBing from './components/EventBing';
 import ParentComponent from './components/ParentComponent';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 
 function App() {
   return (
     <div className="App">
-      <ParentComponent />
+      <ClickCounter />
+      <HoverCounter />
+      {/* <ParentComponent /> */}
       {/* <EventBing /> */}
       {/* <FunctionalClick /> */}
       {/* <ClassClick/> */}
